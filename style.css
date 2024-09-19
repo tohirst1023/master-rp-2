@@ -137,8 +137,9 @@ nav ul li a {
     color: #ffcc00;
 }
 
-/* Button online */
 
+
+/* Button online */
 .card {
     background-color: #132d3d;
     color: #fff;
@@ -146,8 +147,8 @@ nav ul li a {
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    width: 215px;
-    height: 120px;
+    width: 260px;
+    height: 157px;
   }
   
   .title {
@@ -187,4 +188,47 @@ nav ul li a {
   
   .card:nth-child(4), .card:nth-child(5) {
     grid-column: span 1;
+  }
+
+
+
+
+
+  /* Footer style */
+
+
+footer {
+    background-color: #0c2c3d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .payment-icons img {
+    height: 40px;
+    margin-right: 15px;
+  }
+  
+  .footer-info {
+    text-align: right;
+  }
+  
+  .footer-info p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .footer-info a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-info a:hover {
+    text-decoration: underline;
   }
