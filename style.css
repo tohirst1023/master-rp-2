@@ -26,10 +26,15 @@ header {
     padding: 20px;
     /* background-color: #1e2a38; */
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('background.jpg') no-repeat center center/cover; 
+    width: 100%;
 }
 
 .logo img {
     height: 50px;
+}
+
+nav{
+    margin-left: 80px;
 }
 
 nav ul {
@@ -38,7 +43,10 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    display: inline-block;
+    margin-right: 20px;
+    
 }
 
 nav ul li a {
@@ -83,6 +91,7 @@ nav ul li a {
 }
 
 .play-button {
+    text-decoration: none;
     background-color: #ffcc00;
     border: none;
     padding: 15px 30px;
