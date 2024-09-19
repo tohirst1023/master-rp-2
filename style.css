@@ -136,3 +136,55 @@ nav ul li a {
 .total-players .highlight {
     color: #ffcc00;
 }
+
+/* Button online */
+
+.card {
+    background-color: #132d3d;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 215px;
+    height: 120px;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .title span {
+    color: #f3c622;
+  }
+  
+  .card.texas .title span {
+    color: #ffcc00;
+  }
+  
+  .card.florida .title span {
+    color: #ffffff;
+  }
+  
+  .card.nevada .title span {
+    color: #ffd700;
+  }
+  
+  .card.hawaii .title span {
+    color: #ffffff;
+  }
+  
+  .card.indiana .title span {
+    color: #ffffff;
+  }
+  
+  .count {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #00aaff;
+  }
+  
+  .card:nth-child(4), .card:nth-child(5) {
+    grid-column: span 1;
+  }
