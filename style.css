@@ -232,3 +232,16 @@ footer {
   .footer-info a:hover {
     text-decoration: underline;
   }
+
+  .support-link {
+    background: linear-gradient(270deg, #fec700, #fe9800);
+    border-radius: 100%;
+    bottom: 20px;
+    cursor: pointer;
+    height: 60px;
+    padding: 15px;
+    position: fixed;
+    right: -22px;
+    width: 62px;
+    z-index: 9999;
+  }
